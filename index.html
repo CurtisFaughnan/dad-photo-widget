@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dad Photo Widget Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #efe6d4;
+        --card: #1d1f20;
+        --text: #f7f4ef;
+        --muted: #d8d2c8;
+        --accent: #b35c2e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          radial-gradient(circle at top, rgba(179, 92, 46, 0.25), transparent 35%),
+          linear-gradient(180deg, #f7efe1 0%, var(--bg) 100%);
+        color: #241d17;
+      }
+
+      main {
+        width: min(92vw, 760px);
+        display: grid;
+        gap: 20px;
+      }
+
+      .hero {
+        background: rgba(255, 255, 255, 0.55);
+        border: 1px solid rgba(36, 29, 23, 0.08);
+        border-radius: 24px;
+        padding: 24px;
+        backdrop-filter: blur(8px);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        line-height: 0.95;
+      }
+
+      p {
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      .card {
+        position: relative;
+        aspect-ratio: 4 / 3;
+        border-radius: 28px;
+        overflow: hidden;
+        background: var(--card);
+        box-shadow: 0 25px 60px rgba(25, 18, 12, 0.22);
+      }
+
+      .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .overlay {
+        position: absolute;
+        inset: auto 0 0 0;
+        padding: 18px 20px;
+        color: var(--text);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.82));
+      }
+
+      .overlay strong {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 6px;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-top: 10px;
+      }
+
+      .status {
+        padding: 16px 18px;
+        border-left: 4px solid var(--accent);
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Dad Photo Widget</h1>
+        <p>This page previews the same day-of-year photo selection your iPhone widget will use.</p>
+      </section>
+
+      <section class="card" id="card" hidden>
+        <img id="photo" alt="">
+        <div class="overlay">
+          <strong id="title"></strong>
+          <div id="caption"></div>
+          <div class="meta" id="meta"></div>
+        </div>
+      </section>
+
+      <section class="status" id="status">Loading <code>manifest.json</code>...</section>
+    </main>
+
+    <script>
+      async function run() {
+        const status = document.getElementById("status");
+        const card = document.getElementById("card");
+
+        try {
+          const response = await fetch("./manifest.json", { cache: "no-store" });
+          if (!response.ok) throw new Error("Could not load manifest.json");
+
+          const manifest = await response.json();
+          const items = (manifest.images || []).map((item) =>
+            typeof item === "string" ? { file: item } : item
+          );
+
+          if (!items.length) throw new Error("No images found in manifest.");
+
+          const plan = buildShufflePlan(manifest, items, new Date());
+          const selected = plan.selected;
+
+          document.getElementById("photo").src = selected.file;
+          document.getElementById("photo").alt = selected.caption || selected.title || "Daily photo";
+          document.getElementById("title").textContent = selected.title || manifest.title || "Photo of the Day";
+          document.getElementById("caption").textContent = selected.caption || manifest.subtitle || "";
+          document.getElementById("meta").textContent = `Photo ${plan.position + 1} of ${items.length} in cycle ${plan.cycleNumber + 1}`;
+
+          card.hidden = false;
+          status.textContent = "Preview loaded successfully.";
+        } catch (error) {
+          status.textContent = error.message;
+        }
+      }
+
+      function buildShufflePlan(manifest, items, today) {
+        const itemCount = items.length;
+        const startDate = parseStartDate(manifest.startDate) || todayAtUtcMidnight(today);
+        const currentDate = todayAtUtcMidnight(today);
+        const elapsedDays = Math.max(0, differenceInDays(currentDate, startDate));
+        const cycleNumber = Math.floor(elapsedDays / itemCount);
+        const position = elapsedDays % itemCount;
+        const seedSource = manifest.seed || manifest.title || manifest.startDate || "DadPhotoWidget";
+        const seedHash = hashString(`${seedSource}:${cycleNumber}`);
+        const shuffled = shuffleWithSeed(items, seedHash);
+
+        return {
+          cycleNumber,
+          position,
+          selected: shuffled[position]
+        };
+      }
+
+      function parseStartDate(value) {
+        const match = typeof value === "string" && value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+        if (!match) return null;
+        return new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
+      }
+
+      function todayAtUtcMidnight(date) {
+        return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      }
+
+      function differenceInDays(later, earlier) {
+        return Math.floor((later.getTime() - earlier.getTime()) / 86400000);
+      }
+
+      function shuffleWithSeed(items, seed) {
+        const result = items.slice();
+        const random = mulberry32(seed);
+
+        for (let i = result.length - 1; i > 0; i--) {
+          const j = Math.floor(random() * (i + 1));
+          [result[i], result[j]] = [result[j], result[i]];
+        }
+
+        return result;
+      }
+
+      function hashString(value) {
+        let hash = 2166136261;
+
+        for (let i = 0; i < value.length; i++) {
+          hash ^= value.charCodeAt(i);
+          hash = Math.imul(hash, 16777619);
+        }
+
+        return hash >>> 0;
+      }
+
+      function mulberry32(seed) {
+        let value = seed >>> 0;
+
+        return function () {
+          value = (value + 0x6d2b79f5) >>> 0;
+          let result = Math.imul(value ^ (value >>> 15), value | 1);
+          result ^= result + Math.imul(result ^ (result >>> 7), result | 61);
+          return ((result ^ (result >>> 14)) >>> 0) / 4294967296;
+        };
+      }
+
+      run();
+    </script>
+  </body>
+</html>

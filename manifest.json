@@ -1,0 +1,702 @@
+﻿{
+    "title":  "Dad\u0027s Photo of the Day",
+    "subtitle":  "A new memory every day",
+    "startDate":  "2026-12-25",
+    "images":  [
+                   {
+                       "file":  "photos/001.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "1"
+                   },
+                   {
+                       "file":  "photos/002.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "10"
+                   },
+                   {
+                       "file":  "photos/003.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "100"
+                   },
+                   {
+                       "file":  "photos/004.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "101"
+                   },
+                   {
+                       "file":  "photos/005.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "102"
+                   },
+                   {
+                       "file":  "photos/006.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "103"
+                   },
+                   {
+                       "file":  "photos/007.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "104"
+                   },
+                   {
+                       "file":  "photos/008.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "105"
+                   },
+                   {
+                       "file":  "photos/009.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "106"
+                   },
+                   {
+                       "file":  "photos/010.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "107"
+                   },
+                   {
+                       "file":  "photos/011.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "108"
+                   },
+                   {
+                       "file":  "photos/012.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "109"
+                   },
+                   {
+                       "file":  "photos/013.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "11"
+                   },
+                   {
+                       "file":  "photos/014.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "110"
+                   },
+                   {
+                       "file":  "photos/015.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "111"
+                   },
+                   {
+                       "file":  "photos/016.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "112"
+                   },
+                   {
+                       "file":  "photos/017.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "113"
+                   },
+                   {
+                       "file":  "photos/018.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "114"
+                   },
+                   {
+                       "file":  "photos/019.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "115"
+                   },
+                   {
+                       "file":  "photos/020.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "116"
+                   },
+                   {
+                       "file":  "photos/021.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "117"
+                   },
+                   {
+                       "file":  "photos/022.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "118"
+                   },
+                   {
+                       "file":  "photos/023.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "119"
+                   },
+                   {
+                       "file":  "photos/024.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "12"
+                   },
+                   {
+                       "file":  "photos/025.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "120"
+                   },
+                   {
+                       "file":  "photos/026.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "121"
+                   },
+                   {
+                       "file":  "photos/027.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "122"
+                   },
+                   {
+                       "file":  "photos/028.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "123"
+                   },
+                   {
+                       "file":  "photos/029.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "124"
+                   },
+                   {
+                       "file":  "photos/030.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "125"
+                   },
+                   {
+                       "file":  "photos/031.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "126"
+                   },
+                   {
+                       "file":  "photos/032.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "127"
+                   },
+                   {
+                       "file":  "photos/033.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "128"
+                   },
+                   {
+                       "file":  "photos/034.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "129"
+                   },
+                   {
+                       "file":  "photos/035.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "13"
+                   },
+                   {
+                       "file":  "photos/036.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "130"
+                   },
+                   {
+                       "file":  "photos/037.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "131"
+                   },
+                   {
+                       "file":  "photos/038.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "132"
+                   },
+                   {
+                       "file":  "photos/039.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "133"
+                   },
+                   {
+                       "file":  "photos/040.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "134"
+                   },
+                   {
+                       "file":  "photos/041.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "135"
+                   },
+                   {
+                       "file":  "photos/042.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "136"
+                   },
+                   {
+                       "file":  "photos/043.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "137"
+                   },
+                   {
+                       "file":  "photos/044.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "138"
+                   },
+                   {
+                       "file":  "photos/045.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "139"
+                   },
+                   {
+                       "file":  "photos/046.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "14"
+                   },
+                   {
+                       "file":  "photos/047.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "15"
+                   },
+                   {
+                       "file":  "photos/048.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "16"
+                   },
+                   {
+                       "file":  "photos/049.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "17"
+                   },
+                   {
+                       "file":  "photos/050.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "18"
+                   },
+                   {
+                       "file":  "photos/051.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "19"
+                   },
+                   {
+                       "file":  "photos/052.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "2"
+                   },
+                   {
+                       "file":  "photos/053.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "20"
+                   },
+                   {
+                       "file":  "photos/054.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "21"
+                   },
+                   {
+                       "file":  "photos/055.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "22"
+                   },
+                   {
+                       "file":  "photos/056.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "23"
+                   },
+                   {
+                       "file":  "photos/057.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "24"
+                   },
+                   {
+                       "file":  "photos/058.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "25"
+                   },
+                   {
+                       "file":  "photos/059.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "26"
+                   },
+                   {
+                       "file":  "photos/060.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "27"
+                   },
+                   {
+                       "file":  "photos/061.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "28"
+                   },
+                   {
+                       "file":  "photos/062.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "29"
+                   },
+                   {
+                       "file":  "photos/063.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "3"
+                   },
+                   {
+                       "file":  "photos/064.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "30"
+                   },
+                   {
+                       "file":  "photos/065.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "31"
+                   },
+                   {
+                       "file":  "photos/066.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "32"
+                   },
+                   {
+                       "file":  "photos/067.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "33"
+                   },
+                   {
+                       "file":  "photos/068.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "34"
+                   },
+                   {
+                       "file":  "photos/069.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "35"
+                   },
+                   {
+                       "file":  "photos/070.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "36"
+                   },
+                   {
+                       "file":  "photos/071.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "37"
+                   },
+                   {
+                       "file":  "photos/072.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "38"
+                   },
+                   {
+                       "file":  "photos/073.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "39"
+                   },
+                   {
+                       "file":  "photos/074.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "4"
+                   },
+                   {
+                       "file":  "photos/075.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "40"
+                   },
+                   {
+                       "file":  "photos/076.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "41"
+                   },
+                   {
+                       "file":  "photos/077.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "42"
+                   },
+                   {
+                       "file":  "photos/078.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "43"
+                   },
+                   {
+                       "file":  "photos/079.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "44"
+                   },
+                   {
+                       "file":  "photos/080.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "45"
+                   },
+                   {
+                       "file":  "photos/081.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "46"
+                   },
+                   {
+                       "file":  "photos/082.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "47"
+                   },
+                   {
+                       "file":  "photos/083.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "48"
+                   },
+                   {
+                       "file":  "photos/084.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "49"
+                   },
+                   {
+                       "file":  "photos/085.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "5"
+                   },
+                   {
+                       "file":  "photos/086.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "50"
+                   },
+                   {
+                       "file":  "photos/087.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "51"
+                   },
+                   {
+                       "file":  "photos/088.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "52"
+                   },
+                   {
+                       "file":  "photos/089.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "53"
+                   },
+                   {
+                       "file":  "photos/090.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "54"
+                   },
+                   {
+                       "file":  "photos/091.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "55"
+                   },
+                   {
+                       "file":  "photos/092.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "56"
+                   },
+                   {
+                       "file":  "photos/093.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "57"
+                   },
+                   {
+                       "file":  "photos/094.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "58"
+                   },
+                   {
+                       "file":  "photos/095.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "59"
+                   },
+                   {
+                       "file":  "photos/096.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "6"
+                   },
+                   {
+                       "file":  "photos/097.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "60"
+                   },
+                   {
+                       "file":  "photos/098.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "61"
+                   },
+                   {
+                       "file":  "photos/099.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "62"
+                   },
+                   {
+                       "file":  "photos/100.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "63"
+                   },
+                   {
+                       "file":  "photos/101.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "64"
+                   },
+                   {
+                       "file":  "photos/102.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "65"
+                   },
+                   {
+                       "file":  "photos/103.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "66"
+                   },
+                   {
+                       "file":  "photos/104.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "67"
+                   },
+                   {
+                       "file":  "photos/105.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "68"
+                   },
+                   {
+                       "file":  "photos/106.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "69"
+                   },
+                   {
+                       "file":  "photos/107.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "7"
+                   },
+                   {
+                       "file":  "photos/108.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "70"
+                   },
+                   {
+                       "file":  "photos/109.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "71"
+                   },
+                   {
+                       "file":  "photos/110.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "72"
+                   },
+                   {
+                       "file":  "photos/111.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "73"
+                   },
+                   {
+                       "file":  "photos/112.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "74"
+                   },
+                   {
+                       "file":  "photos/113.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "75"
+                   },
+                   {
+                       "file":  "photos/114.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "76"
+                   },
+                   {
+                       "file":  "photos/115.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "77"
+                   },
+                   {
+                       "file":  "photos/116.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "78"
+                   },
+                   {
+                       "file":  "photos/117.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "79"
+                   },
+                   {
+                       "file":  "photos/118.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "8"
+                   },
+                   {
+                       "file":  "photos/119.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "80"
+                   },
+                   {
+                       "file":  "photos/120.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "81"
+                   },
+                   {
+                       "file":  "photos/121.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "82"
+                   },
+                   {
+                       "file":  "photos/122.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "83"
+                   },
+                   {
+                       "file":  "photos/123.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "84"
+                   },
+                   {
+                       "file":  "photos/124.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "85"
+                   },
+                   {
+                       "file":  "photos/125.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "86"
+                   },
+                   {
+                       "file":  "photos/126.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "87"
+                   },
+                   {
+                       "file":  "photos/127.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "88"
+                   },
+                   {
+                       "file":  "photos/128.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "89"
+                   },
+                   {
+                       "file":  "photos/129.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "9"
+                   },
+                   {
+                       "file":  "photos/130.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "90"
+                   },
+                   {
+                       "file":  "photos/131.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "91"
+                   },
+                   {
+                       "file":  "photos/132.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "92"
+                   },
+                   {
+                       "file":  "photos/133.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "93"
+                   },
+                   {
+                       "file":  "photos/134.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "94"
+                   },
+                   {
+                       "file":  "photos/135.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "95"
+                   },
+                   {
+                       "file":  "photos/136.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "96"
+                   },
+                   {
+                       "file":  "photos/137.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "97"
+                   },
+                   {
+                       "file":  "photos/138.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "98"
+                   },
+                   {
+                       "file":  "photos/139.jpg",
+                       "title":  "Dad\u0027s Photo of the Day",
+                       "caption":  "99"
+                   }
+               ]
+}
